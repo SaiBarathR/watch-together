@@ -42,7 +42,7 @@
 }
 
 .intro-slide-content {
-    max-width: 1400px;
+    max-width: 1440px;
     display: flex;
     gap: 30px;
     align-items: center;
@@ -90,4 +90,203 @@
 
 .intro-slide-item-1-img {
     width: 100% !important;
+}
+
+/* Description */
+
+.description-container {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: #219ebc;
+    overflow: hidden;
+    align-content: center;
+    gap: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.description-container-header {
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "League Gothic", "League Gothic Placeholder", sans-serif;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.description-content {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1440px;
+    align-content: flex-start;
+    gap: 20px;
+    border-radius: 0px 0px 0px 0px;
+    text-align: left;
+
+}
+
+.description-items {
+    font-weight: 400;
+    font-family: "Old Standard TT", "Old Standard TT Placeholder", serif;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* UserExperiences */
+
+.user-experience-container {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: #023047;
+    align-content: center;
+}
+
+.user-experience-header {
+    font-weight: 400;
+    font-family: "League Gothic", "League Gothic Placeholder", sans-serif;
+    color: #ffb703;
+    font-size: 32px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.user-experience-paragrapgh {
+    max-width: 400px;
+    font-weight: 400;
+    font-family: "Old Standard TT", "Old Standard TT Placeholder", serif;
+    color: #ffb703;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.user-experience-image-2 {
+    background-image: url('../Icons/movie.png');
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    mix-blend-mode: luminosity;
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 0.98 / 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 200px 40px 40px 40px;
+    min-width: 280px;
+    min-height: 300px;
+
+}
+
+.user-experience-image-1 {
+    max-height: 400px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    mix-blend-mode: luminosity;
+    aspect-ratio: 0.98 / 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+    min-width: 280px;
+    min-height: 300px;
+    background-image: url('../Icons/gamestream.png');
+}
+
+.feature-list-container {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: #0a9396;
+    align-content: center;
+    gap: 50px;
+}
+
+.feature-list-items {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 40px 10px 10px;
+    background-color: #f2f2f2 !important;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    border-radius: 100px;
+    gap: 40px;
+}
+.feature-list-items-mobile {
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  40px;
+    background-color: #f2f2f2 !important;
+    align-content: center;
+    border-radius: 40px;
+    gap: 40px;
+    text-align: center !important;
+}
+
+.feature-list-item-circle-container {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f39237;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    border-radius: 90px;
+}
+
+.feature-list-item-text-header {
+    font-weight: 400 !important;
+    font-family: "Martian Mono", monospace !important;
+    color: #000000 !important;
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+    text-align: left;
+}
+
+.feature-list-item-text-paragraph {
+    font-weight: 400 !important;
+    font-family: "Martian Mono", monospace !important;
+    color: #000000 !important;
+    font-size: 14px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+}
+
+.feature-list-item-text-container{
+    display: flex;
+    flex-direction: column;
+}
+.feature-list-item-text-paragraph-center{
+    text-align: center !important;
 }
