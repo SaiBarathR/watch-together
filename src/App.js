@@ -1,15 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import StartUpPage from './Components/StartUpPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Watch Together
-        </p>
-      </header>
+      <StartUpPage />
     </div>
   );
 }
