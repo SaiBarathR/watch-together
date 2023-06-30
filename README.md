@@ -1,5 +1,6 @@
 /* In Development */
-Live Site link :https://watch-together-firstphase.netlify.app/
+
+Live Site link:https://watch-together-firstphase.netlify.app/
 
 # Getting Started with Create React App
 
