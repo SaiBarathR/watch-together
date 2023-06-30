@@ -1,0 +1,93 @@
+::-webkit-scrollbar-track {
+    background-color: rgba(237, 240, 242, 0.5);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(7, 190, 214);
+    border-radius: 5px;
+}
+
+.startup-page-container {
+    width: 100%;
+    height: min-content;
+    background-color: #023047;
+    overflow: hidden;
+}
+
+/* Intro Slide */
+
+.intro-slide-container {
+    height: min-content !important;
+    background-color: #000000;
+    overflow: hidden;
+    min-height: 600px;
+    padding: 100px 100px 100px 100px !important;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 100px;
+    border-radius: 0px 0px 0px 0px;
+    color: aliceblue;
+}
+
+.intro-slide-content {
+    max-width: 1400px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.intro-slide-item-1 {
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+}
+
+.intro-slide-item-1-button-1.MuiButton-root {
+    max-width: 217px !important;
+    max-height: 59px !important;
+    font-weight: 400;
+    font-family: "Old Standard TT", "Old Standard TT Placeholder", serif;
+    color: #8ecae6 !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+    border-radius: 30px !important;
+    border-color: #8ECAE6 !important;
+}
+
+.intro-slide-item-1-button-2.MuiButton-root {
+    max-width: 217px !important;
+    max-height: 59px !important;
+    font-weight: 400;
+    font-family: "Old Standard TT", "Old Standard TT Placeholder", serif;
+    color: #023047;
+    font-size: 16px;
+    border-radius: 30px !important;
+    background: #8ECAE6 !important;
+}
+
+.intro-slide-item-1-paragrapgh {
+    font-weight: 400 !important;
+    font-style: normal;
+    font-family: "League Gothic", "League Gothic Placeholder", sans-serif !important;
+    color: #8ecae6;
+    font-size: 80px !important;
+    letter-spacing: 0em !important;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.intro-slide-item-1-img {
+    width: 100% !important;
+}
