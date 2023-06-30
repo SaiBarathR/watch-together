@@ -17,7 +17,7 @@ export default function FeatureList() {
 
 function FeatureListBoxRenderer({ src, header, body }) {
 
-    const isMobileView = useMediaQuery('(min-width:450px)')
+    const isMobileView = useMediaQuery('(min-width:340px)')
 
     return (
         <div className={isMobileView ? "feature-list-items" : "feature-list-items-mobile"}>

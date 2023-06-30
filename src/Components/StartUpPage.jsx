@@ -3,6 +3,7 @@ import '../Components/startUpPage.css';
 import Description from "./Home/Description";
 import FeatureList from "./Home/FeatureList";
 import QA from "./Home/QA";
+import PriceTier from "./Home/PriceTier";
 
 export default function StartUpPage() {
     return (
@@ -10,8 +11,8 @@ export default function StartUpPage() {
             <IntroSlide />
             <Description />
             <FeatureList />
-            <QA/>
-            {/* <PriceTier/> */}
+            <QA />
+            <PriceTier />
         </div>
     )
 }

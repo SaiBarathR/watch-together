@@ -28,7 +28,7 @@
     background-color: #000000;
     overflow: hidden;
     min-height: 600px;
-    padding: 100px 100px 100px 100px !important;
+    padding: 50px !important;
     height: min-content;
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 100px 100px 100px 100px;
+    padding: 50px;
     background-color: #219ebc;
     overflow: hidden;
     align-content: center;
@@ -152,7 +152,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 100px 100px 100px 100px;
+    padding: 50px;
     background-color: #023047;
     align-content: center;
 }
@@ -216,7 +216,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 100px 100px 100px;
+    padding: 50px;
     background-color: #0a9396;
     align-content: center;
     gap: 50px;
@@ -300,7 +300,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 50px;
     background-color: #8ecae6;
     position: relative;
     align-content: center;
@@ -340,7 +340,81 @@
     line-height: 1.5;
     text-align: left;
 }
-.qa-content-container{
+
+.qa-content-container {
     max-width: 1440px;
     gap: 40px;
+}
+
+/* PriceTier */
+
+.pricing-container {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    background-color: #000000;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.pricing-card-container {
+    max-width: 1440px;
+    display: flex;
+    gap: 15px;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0px 10px 20px -20px rgba(0, 0, 0, 0.25);
+    background-color: #0d0d0d;
+    align-content: flex-start;
+    gap: 20px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.pricing-card-feature-list {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.pricing-card-feature-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pricing-card-plan {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Old Standard TT", "Old Standard TT Placeholder", serif !important;
+    color: #ffb703;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.pricing-card-price {
+    font-weight: 400 !important;
+    font-style: normal;
+    font-family: "League Gothic", "League Gothic Placeholder", sans-serif !important;
+    color: #8ecae6;
+    font-size: 40px !important;
+    letter-spacing: 0em !important;
+    line-height: 1 !important;
+    text-align: left;
+    margin-bottom: 20px !important;
 }
