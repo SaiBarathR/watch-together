@@ -1,5 +1,14 @@
 import { Grid } from "@mui/material";
 
+export default function Description() {
+    return (
+        <>
+            <DescriptionHeader />
+            <UserExperiences />
+        </>
+    )
+}
+
 function DescriptionHeader() {
 
     return <div className="description-container">
@@ -19,26 +28,6 @@ function DescriptionHeader() {
 
 function UserExperiences() {
 
-    function DetailsGridRenderer({ header, content }) {
-        return (
-            <Grid minWidth={'200px'} maxWidth={'4000px'} item xs={12} md={5.5}>
-                <h3 className='user-experience-header'>
-                    {header}
-                </h3>
-                <h3 className='user-experience-paragrapgh'>
-                    {content}
-                </h3>
-            </Grid>
-        )
-    }
-
-    function ImageGridRender({ imgCss, direction = 'left' }) {
-        return (
-            <Grid className={imgCss} minWidth={'200px'} item xs={12} md={5.5}>
-            </Grid>
-        )
-    }
-
     return (
         <div className="user-experience-container">
             <Grid container maxWidth={'1440px'} gap={"50px"}>
@@ -57,11 +46,22 @@ function UserExperiences() {
     )
 }
 
-export default function Description() {
+function DetailsGridRenderer({ header, content }) {
     return (
-        <>
-            <DescriptionHeader />
-            <UserExperiences />
-        </>
+        <Grid minWidth={'200px'} maxWidth={'4000px'} item xs={12} md={5.5}>
+            <h3 className='user-experience-header'>
+                {header}
+            </h3>
+            <h3 className='user-experience-paragrapgh'>
+                {content}
+            </h3>
+        </Grid>
+    )
+}
+
+function ImageGridRender({ imgCss, direction = 'left' }) {
+    return (
+        <Grid className={imgCss} minWidth={'200px'} item xs={12} md={5.5}>
+        </Grid>
     )
 }
