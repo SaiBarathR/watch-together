@@ -4,6 +4,7 @@ import Description from "./Home/Description";
 import FeatureList from "./Home/FeatureList";
 import QA from "./Home/QA";
 import PriceTier from "./Home/PriceTier";
+import HomeFooter from "./Home/HomeFooter";
 
 export default function StartUpPage() {
     return (
@@ -13,6 +14,7 @@ export default function StartUpPage() {
             <FeatureList />
             <QA />
             <PriceTier />
+            <HomeFooter/>
         </div>
     )
 }

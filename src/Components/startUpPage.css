@@ -418,3 +418,94 @@
     text-align: left;
     margin-bottom: 20px !important;
 }
+
+/* footer */
+.homepage-footer {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    border-color: rgba(0, 0, 0, 0.05);
+    overflow: visible;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 60;
+    border-radius: 0px 0px 0px 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.homepage-footer-mobile {
+    display: block;
+}
+
+.homepage-footer-items {
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Old Standard TT", "Old Standard TT Placeholder", serif;
+    color: #ffb703;
+}
+
+.color-provider {
+    color: #f2f2f2 !important;
+}
+
+.copyright {
+    width: 100%;
+    max-width: 1400px;
+    height: min-content;
+    /* 24px */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    border-radius: 0px 0px 0px 0px;
+    text-align: left;
+}
+
+.copyright-text {
+    flex-shrink: 0;
+    width: 100%;
+    /* 365px */
+    overflow: visible;
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Old Standard TT", "Old Standard TT Placeholder", serif;
+    color: #ffb703;
+}
+
+.copyright-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    border-radius: 0px 0px 0px 0px;
+}
